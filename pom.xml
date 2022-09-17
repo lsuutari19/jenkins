@@ -76,6 +76,10 @@ THE SOFTWARE.
   <properties>
     <revision>2.369</revision>
     <changelist>-SNAPSHOT</changelist>
+    
+    <!-- configuration for sonarcloud -->
+    <sonar.organization>lsuutari19</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
     <!-- configuration for patch tracker plugin  -->
     <project.patchManagement.system>github</project.patchManagement.system>
